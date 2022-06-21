@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "calc_combustivel",
+    "slug": "calc_combustivel",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
