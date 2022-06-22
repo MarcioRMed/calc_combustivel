@@ -29,7 +29,7 @@ Esse projeto está sob MIT license. Veja [LICENSE](https://github.com/belapferre
 <h3 align="center"> Imagem do App </h3> 
 
 <p align="center" >
- <img src="./app_combustivel.png" width='50%' alt="imagem do app"/>
+ <img src="./app_combustivel.png" width='100%' alt="imagem do app"/>
 </p>
 
 ---
