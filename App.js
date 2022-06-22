@@ -1,20 +1,32 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { SafeAreaView, StyleSheet, Text } from 'react-native';
+import Gasolina from './components/gasolina';
+import Etanol from './components/etanol'
+import BtnCalcular from './components/btnCalcular';
+import Resultado from './components/resultado'
+import ImagemResultado from './components/imgResultado.js'
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <SafeAreaView style={styles.container}>
+      <Gasolina/>
+      <Etanol/>
+      <BtnCalcular/>
+      <Resultado/>
+      <ImagemResultado/>
+    </SafeAreaView>
+     
+
+    
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    padding:10,
+    // flex: 1,
+    backgroundColor: '#999',
+    // alignItems: 'center',
+    // justifyContent: 'center',
   },
 });
