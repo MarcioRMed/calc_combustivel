@@ -4,7 +4,7 @@ import {StyleSheet, Text, View } from 'react-native';
 export default props=>{
   return (
     <View style={styles.container}>
-      <Text>Melhor combustível:</Text>
+      <Text>Melhor combustível: {props.resultado}</Text>
     </View>
   );
 }

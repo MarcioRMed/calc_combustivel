@@ -6,6 +6,7 @@ export default props=>{
     <View style={styles.container}>
       <TouchableHighlight
         style={styles.btn}
+        onPress={props.aoPressionar}
       >
         <Text
         style={styles.txtBtn}
