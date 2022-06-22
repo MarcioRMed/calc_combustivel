@@ -26,7 +26,7 @@ Esse projeto está sob MIT license. Veja [LICENSE](https://github.com/belapferre
 
 <br>
 
-<h3 align="center"> Imagem do App </h3> 
+<h3 align="center"> Imagens do App </h3> 
 
 <p align="center" >
  <img src="./app_combustivel.png" width='100%' alt="imagem do app"/>
