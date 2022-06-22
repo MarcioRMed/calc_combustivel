@@ -4,7 +4,7 @@ import {StyleSheet, Text, TextInput, View } from 'react-native';
 export default props=>{
   return (
     <View style={styles.container}>
-      <Text>Digite o preço da Gasolina</Text>
+      <Text style={styles.text}>Digite o preço da Gasolina</Text>
       <TextInput
         style={styles.textInput}
         keyboardType='numeric'
@@ -26,6 +26,11 @@ export const styles = StyleSheet.create({
     borderWidth: 2,
     borderRadius: 7,
     padding:15,
-
+    fontSize: 20,
+  },
+  text:{
+    color:'#000',
+    fontWeight:'600',
+    fontSize: 20,
   },
 });

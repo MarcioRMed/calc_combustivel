@@ -5,7 +5,8 @@ import Etanol from './components/etanol'
 import BtnCalcular from './components/btnCalcular';
 import Resultado from './components/resultado'
 import ImagemResultado from './components/imgResultado.js'
-
+import Footer from './components/footer'
+import Title from './components/title'
 
 export default function App() {
 
@@ -63,6 +64,7 @@ export default function App() {
 //--- Renderização ---
   return (
     <SafeAreaView style={styles.container}>
+      <Title/>
 
       <Gasolina aoModificar={setarGasolina} />
       
@@ -70,9 +72,12 @@ export default function App() {
       
       <BtnCalcular aoPressionar={calcular}/>
       
+      <Resultado resultado={resultado}/>
+
       <ImagemResultado combustivel={resultado.charAt(0)}/> 
       
-      <Resultado resultado={resultado}/>
+
+      <Footer/>
       
     </SafeAreaView>  
     
@@ -81,10 +86,13 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    padding:50,
+    padding:10,
     flex: 1,
-    backgroundColor: '#999',
+    backgroundColor: '#ccc',
     // alignItems: 'center',
-    // justifyContent: 'center',
+    justifyContent: 'space-between',
   },
 });
+
+
+// resultado.charAt(0) -> O método charAt() retorna o caractere especificado a partir de uma string.
